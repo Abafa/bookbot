@@ -2,8 +2,7 @@ def get_book_text (filepath) :
     with open(filepath) as f :
         return f.read()
     
-def split_text (file) :
-    return file.split()
+from stats import split_text
 
 def main () :
     text = get_book_text("books/frankenstein.txt")
