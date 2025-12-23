@@ -32,14 +32,6 @@ def sort_list (dictionaries):
 
 def print_letter (sorted_list) :
     for i in range(1, len(sorted_list)) :
-        if sorted_list["char"].isalpha() :
-            
-            
-            return
-
-        """check si char est alphabetique
-           si oui, print (f"{char[i]}: {num[i]})
-           si non, skip
-        """
-
+        if sorted_list[i]["char"].isalpha() :
+            print (f"{sorted_list[i]["char"]}: {sorted_list[i]["num"]}")
     return
